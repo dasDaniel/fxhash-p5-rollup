@@ -1,0 +1,23 @@
+{
+  "name": "fxhash-p5-rollup",
+  "version": "1.0.0",
+  "description": "an fxhash boilerplate for p5js",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "keywords": [],
+  "author": "Daniel Poda",
+  "license": "ISC",
+  "dependencies": {
+    "livereload": "^0.9.3",
+    "rollup": "^2.60.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-zip": "^1.0.3"
+  }
+}
