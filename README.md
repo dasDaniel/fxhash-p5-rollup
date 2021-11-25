@@ -2,6 +2,17 @@
 
 Boilerplate for creating p5js sketches on the [fxhash](https://www.fxhash.xyz/) platform
 
+## Get Started
+
+The quicket way to get going:
+
+```
+npx degit dasDaniel/fxhash-p5-rollup my-project-name
+cd my-project-name
+npm i
+npm run dev
+```
+
 ## Features
 
 - `p5js` in web-use form
