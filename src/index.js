@@ -36,7 +36,7 @@ function init() {
   pos.l = (pos.w - pos.s) / 2;
   createCanvas(pos.w, pos.h);
   frameRate(config.frameRate);
-  console.log(config);
+  draw();
 }
 
 window.setup = () => {
