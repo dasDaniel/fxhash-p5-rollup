@@ -18,7 +18,7 @@ if (production) {
   plugins.push(terser({ mangle: true }));
 } else {
   plugins.push(serve({ contentBase: "./dev" })); // index.html should be in root of project
-  plugins.push(livereload());
+  plugins.push(livereload({ delay: 500 }));
 }
 
 export default [
